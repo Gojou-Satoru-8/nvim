@@ -1,6 +1,9 @@
-local colors = require("tokyonight.colors").setup()
+return { 
+    "petertriho/nvim-scrollbar",
+    config = function ()
+        local colors = require("tokyonight.colors").setup()
 
-require("scrollbar").setup({
+    require("scrollbar").setup({
     handle = {
         color = colors.bg_highlight,
     },
@@ -12,4 +15,6 @@ require("scrollbar").setup({
         Hint = { color = colors.hint },
         Misc = { color = colors.purple },
     }
-})
+    })
+    end
+ }

@@ -22,4 +22,3 @@ vim.opt.expandtab = true
 vim.o.clipboard = "unnamedplus"
 
 vim.keymap.set('n', '<leader>h', ':nonlsearch<CR>')
-
